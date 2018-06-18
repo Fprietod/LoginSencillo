@@ -1,0 +1,98 @@
+.container{
+	position: relative;
+	
+}
+#particles-js{
+	height: 100vh;
+	width: 100%;
+	background: #610B21;
+	position: fixed;
+}
+.form-content{
+	
+    padding: 25px 25px 30px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 0 0 10px 5px; 
+    -webkit-border-radius: 0 0 10px 10px; 
+    border-radius: 0 0 10px 10px;
+
+}
+input[type="text"], 
+input[type="password"], 
+textarea, 
+textarea.form-control {
+    height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus, 
+textarea.form-control:focus {
+    background: #fff;
+    border: 2px solid #1AAE88;
+}
+
+.myform-top-left { 
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: center;
+}
+.myform-top-left p  { 
+    opacity: 0.8; 
+    color: white;
+    font-size: 30px;
+}
+.myform-top-left h3  { 
+    opacity: 0.8; 
+    color: white;
+    font-size: 30px;
+}
+img.mediana{
+	width: 200px;
+	height: 200px;
+	display:  inline-block;
+	max-width:100%;
+	height:auto;
+	
+
+}
+.vertical{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+    display: inline-block;
+    background: #2394D5;
+    padding: 5px 15px;
+    color: #fff;
+    border: 0 none;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.error{
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+    opacity: .8;
+}
